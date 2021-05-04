@@ -1,0 +1,321 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  .button {
+    color: #49cf9e;
+    background: #fff;
+    text-decoration: none;
+    padding: 15px 40px;
+    font-size: 14px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    box-shadow: 0 0 20px #02bbee;
+    transition: .5s;
+  }
+  
+  .button:hover {
+    color: #1cbae7;
+    border: 1px solid #1cbae7;
+  }
+  
+  .clabtn {
+    box-shadow: 0 0 20px rgba(179, 177, 177, 0.863);
+    border: 2px solid #10df8c;
+  }
+  .head p {
+    text-transform: uppercase;
+    color: #aca9a9;
+    letter-spacing: 1px;
+  }
+  
+  .head h3 {
+    color: #44d89e;
+    padding: 15px 0;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  .header-menu .row .lodo {
+    margin: 24px;
+    margin-left: 70px;
+    margin-bottom: 0;
+  }
+  
+  .header-menu .row .menu ul {
+    text-align: right;
+    margin-right: 70px;
+    margin-bottom: 0;
+  }
+  
+  .header-menu .row .menu ul li {
+    display: inline-block;
+    padding: 10px 10px 13px 10px;
+    margin-left: -5px;
+    cursor: pointer;
+  }
+  
+  .header-menu .row .menu ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 60px;
+    font-weight: 400;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .header-menu .row .menu ul li:hover a {
+    color: rgba(0, 0, 0, 0.616);
+    cursor: pointer;
+  }
+  
+  .banner-section {
+    background-image: linear-gradient(to right, #1cbae7, #25eecc);
+    padding: 150px;
+    margin-bottom: 50px;
+  }
+  
+  .banner-section .container .row .banner-left {
+    margin-top: 100px;
+  }
+  
+  .banner-section .container .row .banner-left h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 500;
+  }
+  
+  .banner-section .container .row .banner-left h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 900;
+  }
+  
+  .banner-section .container .row .banner-left p {
+    font-size: 20px;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .banner-section .container .row img {
+    width: 500px;
+  }
+  
+  .about-section {
+    padding: 90px 0;
+  }
+  
+  .about-section .container .row span {
+    font-size: 17px;
+    padding: 30px 0;
+    display: inline-block;
+  }
+  
+  .about-section .container .row h6 {
+    color: rgba(0, 0, 0, 0.74);
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .class-section {
+    padding: 80px;
+    background: #f5f6f8;
+  }
+  
+  .class-section .container .row .head {
+    text-align: center;
+  }
+  
+  .class-section .container .row {
+    text-align: center;
+  }
+  
+  .class-section .container .row .contant {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #e4e3e3;
+  }
+  
+  .class-section .container .row .contant img {
+    padding: 25px;
+  }
+  
+  .class-section .container .row .contant h4 {
+    color: rgba(0, 0, 0, 0.733);
+    padding: 10px 0;
+  }
+  
+  .class-section .container .row .contant p {
+    color: rgba(0, 0, 0, 0.616);
+    padding-bottom: 50px;
+  }
+  
+  .banner-section-two {
+    background-image: linear-gradient(to right, #f8c86c, #fbae7c);
+    padding: 150px;
+    margin-bottom: 50px;
+  }
+  
+  .banner-section-two .container .row .head p {
+    color: #c56c34a2;
+    font-weight: 600;
+  }
+  
+  .banner-section-two .container .row .head h3 {
+    color: #fff;
+  }
+  
+  .banner-section-two .container .row .banner-left {
+    margin-top: -30px;
+  }
+  
+  .banner-section-two .container .row .banner-left p {
+    font-size: 17px;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .banner-section-two .container .row .banner-left .banner-btn {
+    
+    box-shadow: 0 0 20px #fbaf7cd8;
+  }
+  
+  .banner-section-two .container .row img {
+    width: 500px;
+  }
+  
+  .yoga {
+    padding-bottom: 120px;
+  }
+  
+  .yoga .container .row .box img {
+    padding: 25px;
+  }
+  
+  .yoga .container .row .box h4 {
+    color: rgba(0, 0, 0, 0.733);
+    padding: 10px 0;
+  }
+  
+  .yoga .container .row .box p {
+    color: rgba(0, 0, 0, 0.616);
+  }
+  
+  .yoga .container .row .yoga-img {
+    height: 800px;
+  }
+  
+  .yoga .container .row .yoga-img img {
+    max-height: 100%;
+  }
+  
+  .team-section {
+    background: #f5f6f8;
+  }
+  
+  .team-section .container .row .team-box {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #e4e3e3;
+  }
+  
+  .team-section .container .row .team-box .socail-icon i {
+    color: #44d89e;
+    padding: 0 10px;
+    margin-left: -4px;
+    font-size: 20px;
+    transition: .5s;
+  }
+  
+  .team-section .container .row .team-box .socail-icon i:hover {
+    color: #000;
+  }
+  
+  .people-section {
+    background: #22e1b3;
+  }
+  
+  .people-section .container .head h3 {
+    color: #fff;
+  }
+  
+  .people-section .container .boxx .enar-div {
+	margin: 10px;
+	background: #fff;
+	border-radius: 10px;
+}
+  
+  .articles-section {
+    background: #f3f3f7;
+  }
+  
+  .articles-section .container .row .enar_box {
+    border-radius: 10px;
+    background: #fff;
+    border-radius: 5px;
+  }
+  
+  .articles-section .container .row .enar_box .img {
+	overflow: hidden;
+	border-radius: 5px 5px 0 0;
+}
+  
+  .articles-section .container .row .enar_box p {
+    color: #5e5e5d;
+  }
+  
+  .partner .container .row .boox {
+    border: 1px solid #000;
+  }
+  
+  .footer_section {
+    padding: 200px;
+    background-image: linear-gradient(20deg, #23e4d1, #1bb5ea);
+    color: #fff;
+  }
+  
+  .footer_section .container h3 {
+    font-size: 40px;
+  }
+  
+  .footer_section .container p {
+    font-size: 20px;
+  }
+  
+  .footer_section .container .footer_btn {
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .footer_section .container .footer_bttn {
+    background: #fff;
+    font-size: 20px;
+  }
+  
+  .footer_bottom .container .row p {
+    font-weight: 400;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .footer_bottom .container .row span {
+    font-weight: 600;
+  }
+  
+  .footer_bottom .container .row .socail_icon {
+    text-align: right;
+  }
+  
+  .footer_bottom .container .row .socail_icon a {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 25px;
+  }
+  /*# sourceMappingURL=style.css.map */
